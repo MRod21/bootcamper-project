@@ -3,7 +3,7 @@ package com.organization.mvcproject.MGL_Task1.model;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Game {
+public class  {
 
 	private Long game_id;
 	private String game_name;
