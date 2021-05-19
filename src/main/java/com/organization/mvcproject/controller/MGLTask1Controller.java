@@ -15,14 +15,14 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.organization.mvcproject.model.Game;
 import com.organization.mvcproject.model.Review;
-import com.organization.mvcproject.service.GameService;
+import com.organization.mvcproject.dao.GameDAO;
 
 
 @Controller
 public class MGLTask1Controller {
 
 	@Autowired
-	private GameService javaGameService;
+	private GameDAO javaGameDAO;
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
@@ -49,12 +49,12 @@ public class MGLTask1Controller {
 
 	@RequestMapping(value = "/getAll", method = RequestMethod.GET)
 	public ResponseEntity<List<Game>> fetchAllGames() {
-		return new ResponseEntity<List<Game>>(javaGameService.retrieveAllGames(), HttpStatus.OK);
+		return new ResponseEntity<List<Game>>(javaGameDAO.retrieveAllGames(), HttpStatus.OK);
 	}
 
 	@RequestMapping(value = "/createGame", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Void> createGame(@RequestBody Game game) {
-		javaGameService.saveGame(game);
+		javaGameDAO.saveGame(game);
 		return new ResponseEntity<Void>(HttpStatus.CREATED);
 	}
 }
