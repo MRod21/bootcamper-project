@@ -1,4 +1,3 @@
-com\organization\mvcproject\MGL_Task1\model\Review.class
 com\organization\mvcproject\controller\HomeController.class
 com\organization\mvcproject\config\MvcConfiguration.class
 com\organization\mvcproject\config\RestResponseHandler.class

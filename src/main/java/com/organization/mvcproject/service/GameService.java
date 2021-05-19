@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.organization.mvcproject.model.Game;
 
-public interface gameService {
+public interface GameService {
 
 	List<Game> retrieveAllGames();
 
