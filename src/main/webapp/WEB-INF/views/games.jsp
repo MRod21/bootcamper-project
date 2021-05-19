@@ -34,7 +34,7 @@
             <a class="nav-item nav-link" href="review">Review</a>
         </nav>
         <br>
-        <div class="container" ng-controller="MGL_Task1_Controller as MGL_T1_ctrl">
+        <div class="container" ng-controller="MGLTask1Controller as MGL_T1_ctrl">
             <div class="panel panel-default">
                 <div class="panel-heading text-light"><span class="lead">Game Registration Form </span></div>
                 <div class="formcontainer">
@@ -86,8 +86,8 @@
                         </thead>
                         <tbody>
                             <tr ng-repeat="currentGame in MGL_T1_ctrl.games">
-                                <td><span ng-bind="currentGame.game_name"></span></td>
-                                <td><span ng-bind="currentGame.game_genre"></span></td>
+                                <td><span ng-bind="currentGame.name"></span></td>
+                                <td><span ng-bind="currentGame.genre"></span></td>
                                 <td>
                                 </td>
                             </tr>

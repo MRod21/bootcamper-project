@@ -1,9 +1,9 @@
-C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\controller\MGL_Task1_Controller.java
-C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\service\Game_Service.java
-C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\service\Game_Service_Impl.java
+C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\service\GameServiceImpl.java
+C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\controller\MGLTask1Controller.java
 C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\config\MvcConfiguration.java
 C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\controller\HomeController.java
 C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\model\Game.java
+C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\service\GameService.java
 C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\config\RestResponseHandler.java
 C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\model\Review.java
 C:\Users\mario.rodriguez.jr\git\bootcamper-project\src\main\java\com\organization\mvcproject\model\Company.java

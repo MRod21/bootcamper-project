@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.organization.mvcproject.model.Game;
 import com.organization.mvcproject.model.Review;
-import com.organization.mvcproject.service.Game_Service;
+import com.organization.mvcproject.service.GameService;
 
 
 @Controller
