@@ -19,10 +19,10 @@ import com.organization.mvcproject.service.Game_Service;
 
 
 @Controller
-public class MGL_Task1_Controller {
+public class MGLTask1Controller {
 
 	@Autowired
-	private Game_Service javaGameService;
+	private GameService javaGameService;
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {

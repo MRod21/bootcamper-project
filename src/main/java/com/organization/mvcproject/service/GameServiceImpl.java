@@ -49,7 +49,7 @@ public class GameServiceImpl implements GameService {
 
 	@Override
 	public Game saveGame(Game game) {
-		game.setGame_id(++gameId);
+		game.setId(++gameId);
 		games.add(game);
 		return game;
 	}
@@ -59,7 +59,7 @@ public class GameServiceImpl implements GameService {
 	}
 
 	public static void setGameId(Long gameId) {
-		Game_Service_Impl.gameId = gameId;
+		GameServiceImpl.gameId = gameId;
 	}
 
 	public static Long getCompanyId() {
@@ -67,7 +67,7 @@ public class GameServiceImpl implements GameService {
 	}
 
 	public static void setCompanyId(Long companyId) {
-		Game_Service_Impl.companyId = companyId;
+		GameServiceImpl.companyId = companyId;
 	}
 
 	public static List<Game> getGames() {
@@ -75,7 +75,7 @@ public class GameServiceImpl implements GameService {
 	}
 
 	public static void setGames(ArrayList<Game> games) {
-		Game_Service_Impl.games = games;
+		GameServiceImpl.games = games;
 	}
 
 }
